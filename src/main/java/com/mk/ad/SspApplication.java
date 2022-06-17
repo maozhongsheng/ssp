@@ -22,7 +22,7 @@ import org.springframework.web.client.RestTemplate;
 @EnableCircuitBreaker
 @EnableDiscoveryClient
 @EnableHystrixDashboard
-@MapperScan("com.tianzhuo.ad.mapper")
+@MapperScan("com.mk.ad.mapper")
 @SpringBootApplication
 public class SspApplication {
 
